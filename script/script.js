@@ -41,5 +41,5 @@ console.table(team);
 const album = document.getElementById("album");
 
 for(let i=0; i<team.length; i++){
-    album.innerHTML += `<div class="card"> <img src="img/${team[i].profilePic}"> <div class="card-info"> <h2>${team[i].name}</h2> <span>${team[i].role}</span> </div> </div>`
+    album.innerHTML += `<div class="card"> <img src="img/${team[i].profileA}"> <div class="card-info"> <h2>${team[i].name}</h2> <span>${team[i].role}</span> </div> </div>`
 }
